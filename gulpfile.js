@@ -12,9 +12,8 @@ const { watch, parallel, series, src, dest } = require('gulp'),
     uglify      = require('gulp-uglify'),
     webpack     = require('webpack-stream');
 
-// Define env.
+// Detect env.
 const prod = process.env.NODE_ENV === 'production';
-const dev = process.env.NODE_ENV === 'development' || process.env.NODE_ENV !== 'production';
 
 // Define asset paths.
 const paths = {

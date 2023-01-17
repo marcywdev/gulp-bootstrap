@@ -89,7 +89,7 @@ function clean() {
 function serve() {
     browserSync.init({
         open: true,
-        server: './'
+        proxy: 'http://yourdevurl' // Change this
     });
 }
 

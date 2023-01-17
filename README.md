@@ -14,7 +14,10 @@ https://gulp-bootstrap.netlify.app
    If you don't already have Gulp CLI installed globally, you can install it via `npm i --global gulp-cli`.
    
 
-3. To start the dev build process, either run the command `gulp` or use the `dev` command script in `package.json` 
+3. Update the proxy URL in gulpfile.js to the local URL for your site.
+
+
+4. To start the dev build process, either run the command `gulp` or use the `dev` command script in `package.json` 
    (`npm run dev`). Both of these run the default gulp task which compiles, auto-prefixes, and minifies the Sass files, 
    transpiles and minifies the JavaScript, and starts a Browsersync server which reloads the page on file change. 
    
